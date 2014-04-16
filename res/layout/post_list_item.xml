@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+		<TextView   
+                android:layout_height="wrap_content"   
+                android:layout_width="fill_parent"   
+                android:id="@+id/ItemTitle"   
+                android:textSize="20sp">  
+        </TextView>  
+        
+        <TextView   
+                android:layout_height="wrap_content"   
+                android:layout_width="wrap_content"   
+                android:id="@+id/ItemText"
+                android:layout_below="@+id/ItemTitle">  
+        </TextView>
+        
+        <TextView   
+                android:layout_height="wrap_content"   
+                android:layout_width="wrap_content"   
+                android:id="@+id/Rating"
+                android:layout_below="@+id/ItemTitle"
+                android:layout_toRightOf="@+id/ItemText">  
+        </TextView>
+        
+        <TextView   
+                android:layout_height="wrap_content"   
+                android:layout_width="wrap_content"   
+                android:id="@+id/Replies"
+                android:layout_below="@+id/ItemTitle"
+                android:layout_alignParentRight="true">  
+        </TextView>  
+        
+</RelativeLayout>
